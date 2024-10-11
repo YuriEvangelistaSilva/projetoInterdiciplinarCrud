@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("image/game.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.contaner {
+
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 1em;
+    padding: 1em 2em 1em 2em;
+    border-radius: 10px;
+}
+
+.form-header {
+    margin: 0em 0em 1em 0em;
+    display: flex;
+    justify-content: space-between
+}
+
+
+.input-group {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 20em;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000000;
+}
+
+.input-boxc input:hover {
+    background-color: rgb(0, 255, 170);
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #19f805f1;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0, 75rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.input-box input::placeholder {
+    color: #000000;
+}
+
+.lembre-min{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: white;
+}
+
+.continue-button button {
+    width: 100%;
+    border: none;
+    background-color: rgb(70, 9, 150);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button {
+    background-color: rgb(106, 85, 145);
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: white;
+}
+
+.ja-tem {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.93rem;
+}
+
+.login{
+    color: blue;
+    font-size: 1em;
+}
+
+hr{
+    position: relative;
+    top: 1em;
+    border: none;
+    height: 0.1em;
+    background: black;
+    margin-bottom: 1em;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-icon{
+    display: flex;
+    width: 2.5em;
+    cursor: pointer;
+    margin: 2em;
+}

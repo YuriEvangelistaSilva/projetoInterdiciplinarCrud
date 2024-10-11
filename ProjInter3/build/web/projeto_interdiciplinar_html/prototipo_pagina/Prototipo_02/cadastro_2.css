@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace
+}
+::placeholder{
+    font-size: 1.5em
+}
+
+.nome-site{
+    align-items: ;
+}
+.contaner {
+    display: flex;
+}
+
+.form {
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(117, 117, 117);
+    padding: 1em;
+    border-radius: 10px;
+    width: 40em;
+}
+
+.form-header {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 0em 0em 1em 0em
+}
+
+
+.input-group {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+    width: 30em;
+}
+input{
+    border: none;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.input-boxc input:hover {
+    background-color: rgb(0, 255, 170);
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #19f805f1;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0, 75rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.input-box input::placeholder {
+    color: #000000;
+}
+
+.lembre-min{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: white;
+}
+
+.continue-button button {
+    width: 100%;
+    border: none;
+    background-color: rgb(70, 9, 150);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button {
+    background-color: rgb(54, 54, 54);
+    width: 10em;
+    margin: 1em;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.ja-tem {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.93rem;
+}
+
+.login{
+    color: blue;
+    font-size: 1em;
+}
+
+hr{
+    position: relative;
+    top: 1em;
+    border: none;
+    height: 0.1em;
+    background: black;
+    margin-bottom: 1em;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-icon{
+    display: flex;
+    width: 2.5em;
+    cursor: pointer;
+    margin: 2em;
+}
